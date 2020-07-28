@@ -5,7 +5,7 @@ where TABLE_NAME='jobs';
 --Part 2
 SELECT Name
 FROM employers
-WHERE Location LIKE "St. Louis%"
+WHERE Location LIKE "S%t%Louis%"
 --Part 3
 SELECT Name, Description
 FROM skills
